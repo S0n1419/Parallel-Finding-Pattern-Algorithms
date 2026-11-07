@@ -1,0 +1,13 @@
+# Bỏ qua thư mục build của CMake
+build/
+docs/
+bin/
+out/
+
+# Bỏ qua các file thực thi và file tạm
+*.exe
+*.o
+*.obj
+
+# Cấu hình riêng của VS Code
+.vscode/
