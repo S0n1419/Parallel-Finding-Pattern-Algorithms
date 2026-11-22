@@ -28,3 +28,7 @@ Từ thư mục gốc của dự án:
 ```
 
 Sau khi thay đổi mã nguồn, biên dịch lại bằng `cmake --build build-mingw`. Nếu đổi trình biên dịch hoặc generator, hãy cấu hình vào một thư mục build mới vì CMake lưu lựa chọn đó trong cache.
+
+## Thanh vien nhom
+
+- Nghiem Hanh (NghiemHanh061105)
