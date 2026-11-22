@@ -1,9 +1,6 @@
-#include <iostream>
-
-int main() {
-    std::cout << "========================================" << std::endl;
-    std::cout << " CMake hoat dong thanh cong!" << std::endl;
-    std::cout << " Project: Parallel-Finding-Patterns-Algorithms" << std::endl;
-    std::cout << "========================================" << std::endl;
-    return 0;
+#include <cstdio>
+#include <omp.h>
+int main(){
+#pragma omp parallel
+  printf("thread %d/%d\n", omp_get_thread_num(), omp_get_num_threads());
 }
