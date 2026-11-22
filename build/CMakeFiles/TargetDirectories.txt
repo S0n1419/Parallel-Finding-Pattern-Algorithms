@@ -1,3 +1,0 @@
-G:/Parallel-Finding-Patterns-Algorithms/build/CMakeFiles/app_test.dir
-G:/Parallel-Finding-Patterns-Algorithms/build/CMakeFiles/edit_cache.dir
-G:/Parallel-Finding-Patterns-Algorithms/build/CMakeFiles/rebuild_cache.dir

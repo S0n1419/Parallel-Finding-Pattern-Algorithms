@@ -1,13 +1,22 @@
-# Bỏ qua thư mục build của CMake
-build/
-docs/
-bin/
+# Thư mục build của CMake (kể cả build-asan, build-tsan)
+build*/
 out/
+bin/
 
-# Bỏ qua các file thực thi và file tạm
+# Tệp thực thi và tệp biên dịch
 *.exe
 *.o
 *.obj
 
-# Cấu hình riêng của VS Code
-.vscode/
+# Tài liệu: chỉ bỏ các tệp PDF bài báo (xem lưu ý bản quyền)
+docs/*.pdf
+
+# Dữ liệu lớn: không commit, chỉ commit script sinh dữ liệu
+data/raw/*
+data/synthetic/*
+!data/raw/.gitkeep
+!data/synthetic/.gitkeep
+
+# VS Code: bỏ cấu hình cá nhân, giữ danh sách tiện ích gợi ý
+.vscode/*
+!.vscode/extensions.json
